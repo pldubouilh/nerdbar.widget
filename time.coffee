@@ -1,14 +1,14 @@
 command: "date +\"%H:%M\""
 
-refreshFrequency: 10000 # ms
+refreshFrequency: 100000 # ms
 
 render: (output) ->
   "#{output}"
 
 style: """
   -webkit-font-smoothing: antialiased
-  color: #458588
-  font: 11px Osaka-Mono
+  color: #D5C4A1
+  font: 13px Osaka-Mono
   right: 10px
-  top: 6px
+  top: 5px
 """
